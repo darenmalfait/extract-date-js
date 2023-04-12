@@ -1,14 +1,16 @@
 import * as chrono from 'chrono-node'
-import {ParsingContext} from 'chrono-node/dist/chrono'
-import {ParsingResult} from 'chrono-node/dist/results'
+import {ParsingContext} from 'chrono-node/dist/esm/chrono'
 
 function createDateParser() {
   const parser = chrono.en.GB.clone()
 
-  function certainYearRefiner(_: ParsingContext, results: ParsingResult[]) {
+  function certainYearRefiner(
+    _: ParsingContext,
+    results: chrono.ParsingResult[],
+  ) {
     // If there is no AM/PM (meridiem) specified,
     //  let all time between 1:00 - 4:00 be PM (13.00 - 16.00)
-    const filteredResults: ParsingResult[] = []
+    const filteredResults: chrono.ParsingResult[] = []
     results.forEach(result => {
       if (
         result.start.isCertain('day') &&
