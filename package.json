@@ -67,7 +67,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^29.5.2",
-    "@types/shelljs": "^0.8.11",
+    "@types/shelljs": "^0.8.12",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "babel-loader": "^9.1.2",
@@ -86,5 +86,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@7.32.0"
+  "packageManager": "pnpm@7.33.3"
 }

@@ -13,7 +13,7 @@ specifiers:
   '@semantic-release/changelog': ^6.0.3
   '@semantic-release/git': ^10.0.1
   '@types/jest': ^29.5.2
-  '@types/shelljs': ^0.8.11
+  '@types/shelljs': ^0.8.12
   '@typescript-eslint/eslint-plugin': ^5.56.0
   '@typescript-eslint/parser': ^5.56.0
   babel-loader: ^9.1.2
@@ -43,7 +43,7 @@ devDependencies:
   '@semantic-release/changelog': 6.0.3
   '@semantic-release/git': 10.0.1
   '@types/jest': 29.5.2
-  '@types/shelljs': 0.8.11
+  '@types/shelljs': 0.8.12
   '@typescript-eslint/eslint-plugin': 5.56.0_iskin7c6dxqunwflhstekcjqmq
   '@typescript-eslint/parser': 5.56.0_vgl77cfdswitgr47lm5swmv43m
   babel-loader: 9.1.2_@babel+core@7.22.6
@@ -2160,8 +2160,8 @@ packages:
       '@babel/types': 7.22.5
     dev: true
 
-  /@types/glob/8.1.0:
-    resolution: {integrity: sha512-IO+MJPVhoqz+28h1qLAcBEH2+xHMK6MTyHJc7MTnnYb6wsoLR29POVGJ7LycmVXIqyy/4/2ShP5sUwTXuOwb/w==}
+  /@types/glob/7.2.0:
+    resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
       '@types/node': 18.14.2
@@ -2236,10 +2236,10 @@ packages:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
     dev: true
 
-  /@types/shelljs/0.8.11:
-    resolution: {integrity: sha512-x9yaMvEh5BEaZKeVQC4vp3l+QoFj3BXcd4aYfuKSzIIyihjdVARAadYy3SMNIz0WCCdS2vB9JL/U6GQk5PaxQw==}
+  /@types/shelljs/0.8.12:
+    resolution: {integrity: sha512-ZA8U81/gldY+rR5zl/7HSHrG2KDfEb3lzG6uCUDhW1DTQE9yC/VBQ45fXnXq8f3CgInfhZmjtdu/WOUlrXRQUg==}
     dependencies:
-      '@types/glob': 8.1.0
+      '@types/glob': 7.2.0
       '@types/node': 18.14.2
     dev: true
 
