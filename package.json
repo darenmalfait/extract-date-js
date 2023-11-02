@@ -52,7 +52,7 @@
     "version": "pnpm build"
   },
   "dependencies": {
-    "chrono-node": "^2.6.6"
+    "chrono-node": "^2.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
@@ -67,7 +67,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^29.5.5",
-    "@types/shelljs": "^0.8.12",
+    "@types/shelljs": "^0.8.14",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "babel-loader": "^9.1.3",
